@@ -12,6 +12,8 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 
+Plugin 'scrooloose/nerdtree'
+
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -60,3 +62,6 @@ set hls
 nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 
 inoremap jj <ESC>
+
+" map to open or close Nerdtree
+map <C-n> :NERDTreeToggle <CR>
