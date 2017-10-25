@@ -20,3 +20,5 @@ if [ -f ~/.bash_aliases ]; then
 
 # added by Anaconda2 4.4.0 installer
 export PATH="/home/lishuang/anaconda2/bin:$PATH"
+
+export PATH="$HOME/shuangl_bin:$PATH"
